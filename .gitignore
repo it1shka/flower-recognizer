@@ -1,2 +1,5 @@
 flower_images/
+models/
+*.pth
+*.state
 *.jpg
