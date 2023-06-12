@@ -1,5 +1,10 @@
+.DS_Store
 flower_images/
 models/
 *.pth
 *.state
 *.jpg
+
+__pycache__/
+*.pyc
+.venv/
