@@ -61,7 +61,7 @@ def get_image_from_user() -> Image:
 def main() -> None:
   while True:
     image = get_image_from_user()
-    predictor = Predictor('./models/model.pth')
+    predictor = Predictor('./models/model_0.9794.pth')
     print('Predicting...')
     print(predictor.predict(image))
 
